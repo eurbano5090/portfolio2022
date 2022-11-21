@@ -1,0 +1,97 @@
+nav{
+    font-family: "Roboto";
+    background-color:#DBE3E8;
+    font-size:20px;
+    font-weight: 800;
+    position: fixed;
+    width: 100vw;
+    text-decoration: none;
+    z-index: 1;
+}
+
+#MiExperiencia{
+    font-family: "Roboto";
+    font-weight: 800;
+    color: #242525;
+    margin-bottom: 3rem;
+   
+}
+#MiExperiencia h2{
+    font-family: "Roboto";
+    font-weight: 800;
+    font-size: 32px;
+}
+#MisultimosTrabajos{
+    font-weight: 800;
+    font-family: "Roboto";
+    color: #242525;
+   
+}
+#Contacto h1{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 48px;
+}
+#presentavc{
+    color: #242525;
+    font-family: "Roboto";
+    font-weight: 800;
+    line-height: 3;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 22px;
+}
+footer{
+    background-color: #3A5199;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: white;
+}
+#redes a{
+    color:white;
+    text-decoration: none;
+}
+#skills{
+    background-color: #D5D6D2;
+    display: grid;
+}
+#inicio{
+    background-color: #3A465C;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    margin: 0 0 12px;
+    display:block;
+   
+   
+   
+}
+span{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 0 12px;
+    color:#fff;
+    display:block;
+    line-height: 1.1;
+    padding: 0 13px;
+    position: relative;
+}
+
+span::before{
+    background: linear-gradient(90deg,var(--start-color),var(--end-color));
+    content:var(--content);
+    position: absolute;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated 9s infinite;
+    animation-delay: var(--delay);
+}
+
+@keyframes animated{
+    0%, 16.667%, 100%{
+        opacity: 1;
+    }
+    33.333%, 83.333%{
+        opacity: 0;
+    }
+}
