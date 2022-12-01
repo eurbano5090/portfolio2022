@@ -1,17 +1,20 @@
 nav{
     font-family: "Roboto";
     background-color:#DBE3E8;
-    font-size:20px;
+    font-size:18px;
     font-weight: 800;
     position: fixed;
     width: 100vw;
     text-decoration: none;
     z-index: 1;
 }
-
+#inicio{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 18px;
+}
 #MiExperiencia{
     font-family: "Roboto";
-    font-weight: 800;
+    font-weight: 400;
     color: #242525;
     margin-bottom: 3rem;
    
@@ -35,10 +38,9 @@ nav{
     color: #242525;
     font-family: "Roboto";
     font-weight: 800;
-    line-height: 3;
     padding-left: 3rem;
     padding-right: 3rem;
-    font-size: 22px;
+    font-size:18px;
 }
 footer{
     background-color: #3A5199;
