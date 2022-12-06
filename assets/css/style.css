@@ -8,6 +8,17 @@ nav{
     text-decoration: none;
     z-index: 1;
 }
+#mis_servicios{
+    float: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    shape-outside: circle();
+    clip-path: circle();
+    background: #fbc512;
+    $card-cap-bg:rgba($black, .03);
+}
+
 
 #MiExperiencia{
     font-family: "Roboto";
@@ -22,6 +33,7 @@ nav{
     font-size: 32px;
 }
 #MisultimosTrabajos{
+    background-color: #3A5199;
     font-weight: 800;
     font-family: "Roboto";
     color: #242525;
@@ -32,7 +44,7 @@ nav{
     font-size: 48px;
 }
 #presentavc{
-    color: #242525;
+    color: #3A5199;
     font-family: "Roboto";
     font-weight: 800;
     padding-left: 3rem;
@@ -52,9 +64,10 @@ footer{
 #skills{
     background-color: #D5D6D2;
     display: grid;
+  
 }
 #inicio{
-    background-color: #3A465C;
+    background-color: #3A5199;
     font-family: 'Plus Jakarta Sans', sans-serif;
     text-align: center;
     display:block;
