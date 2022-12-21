@@ -31,20 +31,21 @@ $("#correo").click(function () {
       }
    });
    $("#card-1").click(function(){
-    $("p").toggle(1000);
+    $("p1").toggle(1000);
      });
        $("#card-2").click(function(){
-        $("p").toggle(1000);
+        $("p2").toggle(1000);
          });
            $("#card-3").click(function(){
-             $("p").toggle(1000);
+             $("p3").toggle(1000);
               });
                 $("#card-4").click(function(){
-                 $("p").toggle(1000);
+                 $("p4").toggle(1000);
                   });
                     $("#card-5").click(function(){
-                      $("p").toggle(1000);
+                      $("p5").toggle(1000);
                         });
                         $("#card-6").click(function(){
-                           $("p").toggle(1000);
+                           $("p6").toggle(1000);
                            });
+                           
