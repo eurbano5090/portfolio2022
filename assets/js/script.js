@@ -18,7 +18,7 @@ $("#correo").click(function () {
       )
     })
   })
-  $("#ingredientes").dblclick(function(){
+  $("#mis_servicios").dblclick(function(){
     $(this).css({
         "color": "red" })
   } );
@@ -30,3 +30,21 @@ $("#correo").click(function () {
          $("#menu").removeClass("bg-inverse");
       }
    });
+   $("#card-1").click(function(){
+    $("p").toggle(1000);
+     });
+       $("#card-2").click(function(){
+        $("p").toggle(1000);
+         });
+           $("#card-3").click(function(){
+             $("p").toggle(1000);
+              });
+                $("#card-4").click(function(){
+                 $("p").toggle(1000);
+                  });
+                    $("#card-5").click(function(){
+                      $("p").toggle(1000);
+                        });
+                        $("#card-6").click(function(){
+                           $("p").toggle(1000);
+                           });
