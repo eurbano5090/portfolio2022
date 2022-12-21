@@ -39,3 +39,12 @@ $("#correo").click(function () {
    $("#card-3").click(function(){
     $(p).togle(1000);
    });
+   $("#card-4").click(function(){
+    $(p).togle(1000);
+   });
+   $("#card-5").click(function(){
+    $(p).togle(1000);
+   });
+   $("#card-6").click(function(){
+    $(p).togle(1000);
+   });
