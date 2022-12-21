@@ -18,7 +18,7 @@ $("#correo").click(function () {
       )
     })
   })
-  $("#ingredientes").dblclick(function(){
+  $("#mis_servicios").dblclick(function(){
     $(this).css({
         "color": "red" })
   } );
@@ -29,4 +29,13 @@ $("#correo").click(function () {
       }else{
          $("#menu").removeClass("bg-inverse");
       }
+   });
+   $("#card-1").click(function(){
+    $(p).togle(1000);
+   });
+   $("#card-2").click(function(){
+    $(p).togle(1000);
+   });
+   $("#card-3").click(function(){
+    $(p).togle(1000);
    });
