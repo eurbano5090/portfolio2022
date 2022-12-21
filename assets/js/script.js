@@ -31,20 +31,20 @@ $("#correo").click(function () {
       }
    });
    $("#card-1").click(function(){
-    $(p).togle(1000);
-   });
-   $("#card-2").click(function(){
-    $(p).togle(1000);
-   });
-   $("#card-3").click(function(){
-    $(p).togle(1000);
-   });
-   $("#card-4").click(function(){
-    $(p).togle(1000);
-   });
-   $("#card-5").click(function(){
-    $(p).togle(1000);
-   });
-   $("#card-6").click(function(){
-    $(p).togle(1000);
-   });
+    $("p").toggle(1000);
+     });
+       $("#card-2").click(function(){
+        $("p").toggle(1000);
+         });
+           $("#card-3").click(function(){
+             $("p").toggle(1000);
+              });
+                $("#card-4").click(function(){
+                 $("p").toggle(1000);
+                  });
+                    $("#card-5").click(function(){
+                      $("p").toggle(1000);
+                        });
+                        $("#card-6").click(function(){
+                           $("p").toggle(1000);
+                           });
